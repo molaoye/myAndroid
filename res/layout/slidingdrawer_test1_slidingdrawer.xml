@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SlidingDrawer1"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:content="@+id/LinearLayout_menu"
+    android:handle="@+id/LinearLayout_handle" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_handle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ImageView_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_up" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:gravity="center" >
+    </LinearLayout>
+
+</SlidingDrawer>

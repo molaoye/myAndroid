@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_number_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/Button_number_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/Button_number_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_number_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/Button_number_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/Button_number_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="6" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_number_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/Button_number_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/Button_number_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="9" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=""
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/Button_number_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="0" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=""
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

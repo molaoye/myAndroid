@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_province3_HaiNan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="琼" />
+
+        <Button
+            android:id="@+id/Button_province3_XiZang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="藏" />
+
+        <Button
+            android:id="@+id/Button_province3_ShanXi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="陕/秦" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_province3_GanSu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="甘/陇" />
+
+        <Button
+            android:id="@+id/Button_province3_QingHai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="青" />
+
+        <Button
+            android:id="@+id/Button_province3_NingXia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="宁" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_province3_XinJiang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="新" />
+
+        <Button
+            android:id="@+id/Button_province3_XiangGang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="港" />
+
+        <Button
+            android:id="@+id/Button_province3_AoMen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="澳" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/Button_province3_TaiWan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color"
+            android:background="@drawable/press_style_carnumime_provinces_numbers"
+            android:text="台" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

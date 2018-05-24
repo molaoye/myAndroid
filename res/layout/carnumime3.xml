@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/grayviewback"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/grayviewback" >
+
+        <Button
+            android:id="@+id/Button_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/press_style_carnumime_close" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="输入助手"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/layout_vertical"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/TextView_carNum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layout_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" >
+
+                <Button
+                    android:id="@+id/Button_province_first"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/press_style_carnumime_province_first" />
+
+                <Button
+                    android:id="@+id/Button_province_previous"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/press_style_carnumime_province_previous" />
+
+                <Button
+                    android:id="@+id/Button_province_next"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/press_style_carnumime_province_next" />
+
+                <Button
+                    android:id="@+id/Button_province_last"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/press_style_carnumime_province_last" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layout_vertical"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_include"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/Button_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/press_style_carnumime_right_category"
+                        android:text="省名"
+                        android:textColor="@drawable/press_style_carnumime_btn_text_color" />
+
+                    <Button
+                        android:id="@+id/Button_letters"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/press_style_carnumime_right_category"
+                        android:text="ABC"
+                        android:textColor="@drawable/press_style_carnumime_btn_text_color" />
+
+                    <Button
+                        android:id="@+id/Button_numbers"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/press_style_carnumime_right_category"
+                        android:text="123"
+                        android:textColor="@drawable/press_style_carnumime_btn_text_color" />
+
+                    <Button
+                        android:id="@+id/Button_del"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/press_style_carnumime_right_del" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/press_style_carnumime_bottom"
+            android:text="确定"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color" />
+
+        <Button
+            android:id="@+id/button_return"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/press_style_carnumime_bottom"
+            android:text="返回"
+            android:textColor="@drawable/press_style_carnumime_btn_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

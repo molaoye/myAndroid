@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/android/ActivityManage.java=UTF-8
+encoding//src/com/android/graphics/ImageUtil.java=UTF-8
+encoding//src/com/android/layout/SlidingLayout.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_activity_PlayBindMusic.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_activity_PlayBroadcaseMusic.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_activity_PlayMusic.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_activity_PlayRemoteMusic.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_service_BindMusicService.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_service_MusicService.java=UTF-8
+encoding//src/com/android/service/ServiceTest2_service_RemoteMusicService.java=UTF-8
+encoding//src/com/utils/UncatchExceptionHandler.java=UTF-8

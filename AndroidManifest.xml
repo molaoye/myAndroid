@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android"
+    android:versionCode="1"
+    android:versionName="@string/appVersion" >
+    
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps"/>
+
+    <application 
+        android:label="@string/AppName" 
+        android:name="com.android.application.MyApplication" 
+        android:icon="@drawable/ic_launcher_my_android">
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="hmj7OFrqeEwkKL1mwX1uefDr" />
+        
+        <activity android:name="MyAndroidList" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.camera.CameraTest7"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name="com.android.camera.CameraTest1" >
+        </activity>
+        <activity android:name="com.android.service.ServiceTest2_activity_PlayBindMusic" />
+        <activity android:name="com.android.service.ServiceTest2_activity_PlayMusic" />
+        <activity android:name="com.android.service.ServiceTest2_activity_PlayRemoteMusic" />
+        <activity android:name="com.android.service.ServiceTest2_activity_PlayBroadcaseMusic" />
+        <activity android:name="com.android.assist.ShowMessage" />
+        <activity android:name="com.android.tabhost.TabHostTest1" />
+        <activity android:name="com.android.tabhost.TabHostTest1_subTab1" />
+        <activity android:name="com.android.tabhost.TabHostTest1_subTab2" />
+        <activity android:name="com.android.tabhost.TabHostTest1_subTab3" />
+        <activity android:name=".message.MessageTest1" />
+        <activity android:name="com.test.SelectPicTest" />
+        <activity
+            android:name="com.utils.SelectPicPopupWindow"
+            android:theme="@style/selectPicPopupWindow" />
+        <activity android:name="com.android.gps.BaiduGpsTest1" />
+        <activity android:name="com.android.gps.GpsTest1" />
+        <activity android:name="com.test.Level3LinkageTest" />
+        <activity android:name="com.test.JdbcTest" />
+        <activity android:name="com.android.camera.CameraTest8"/>
+        <activity android:name="com.android.listview.ListView_test1"/>
+        <activity android:name="com.android.slidingdrawer.SlidingDrawerTest1"/>
+		<activity android:name="com.android.slidingdrawer.SlidingDrawerTest2"/>
+		<activity android:name="com.utils.CarNumIME"/>
+		<activity android:name="com.test.CarNumIMETest" />
+		<activity android:name="com.test.CustomAlertDialogTest1" />
+		<activity android:name="com.android.listview.ListView_test2"/>
+		<activity android:name="com.android.camera.CameraTest9"/>
+		<activity android:name=".gesture.Gesture1"/>
+		<activity android:name=".gesture.Gesture2"/>
+		<activity android:name=".gesture.Gesture3"/>
+		<activity android:name="com.android.storage.StorageTest1"/>
+		<activity android:name="com.android.storage.StorageTest2"/>
+		<activity android:name="com.android.storage.StorageTest3"/>
+		<activity android:name="com.android.database.DatabaseTest1"/>
+		<activity android:name="com.android.graphics.ImageTest1"/>
+		<activity android:name="com.android.graphics.ImageTest2"/>
+		<activity android:name="com.android.graphics.ImageSee"/>
+		<activity android:name="com.android.permission.InstallAppsPermission"/>
+		<activity android:name="com.android.permission.MyAppPermission"/>
+		<activity android:name="com.android.media.VideoPlay1"/>
+		<activity android:name="com.android.media.VideoPlay2"/>
+		<activity android:name="com.android.media.VideoPlay3"/>
+		<activity android:name="com.test.EditTextTest1"/>
+		<activity android:name="com.test.SlidingMenuTest1"/>
+		<activity android:name="com.android.tabhost.TabHostTest1_SlidingMenu" />
+		<activity android:name="com.android.viewpager.ViewPager1"/>
+		<activity android:name="com.android.viewpager.ViewPager2"/>
+        <activity android:name="com.test.SlidingMenuTest2"/>
+        <activity android:name="com.test.LayoutTest"/>
+        <activity android:name="com.android.database.DatabaseTest2"/>
+        <activity android:name="com.test.InputTypeTest"/>
+        <activity android:name="com.android.web.WebViewTest1"/>
+		
+        <service android:name="com.android.Widget.WidgetTest2$UpdateService" />
+        <service
+            android:name="com.android.service.ServiceTest1_service"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.android.service.ServiceTest1_service" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.android.service.ServiceTest2_service_MusicService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.android.service.ServiceTest2_service_MusicService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.android.service.ServiceTest2_service_BindMusicService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.android.service.ServiceTest2_service_BindMusicService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.android.service.ServiceTest2_service_RemoteMusicService" >
+            <intent-filter>
+                <action android:name="com.android.service.ServiceTest2_service_RemoteMusicService" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.ServiceTest3_service" >
+            <intent-filter>
+                <action android:name="com.android.service.ServiceTest3_service" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        <service android:name="com.android.service.Gps_baidu_service" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.android.service.Gps_baidu_service" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.android.broadcastreceiver.MusicReceiver" >
+            <intent-filter>
+                <action android:name="com.android.assist.MusicReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.broadcastreceiver.MyBroadcastReceiver" >
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>
